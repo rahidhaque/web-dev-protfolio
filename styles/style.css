@@ -20,6 +20,9 @@ body{
 /* header style */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* nav related styles */
@@ -56,34 +59,44 @@ nav a{
 
 /* banner related styles */
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-content{
     background-color: #FFF8F3;
+    max-width: 585px;
 }
 
 .banner-greeting{
     color: var(--Dark-02, #474747);
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .banner-title{
     color: var(--Dark-01, #181818);
     font-size: 85px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .banner-comments{
     color: var(--Dark-03, #757575);
     font-size: 18px;
     font-weight: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .banner-img{
-    width: 580px;
-    height: 670px;
+    width: 500px;
+}
+
+.contact{
+    margin-left: 30px;
 }
