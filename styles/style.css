@@ -17,11 +17,18 @@ body{
     padding: 15px 35px;     
 }
 
+/* header style */
+.header{
+    background-color: #FFF8F3;
+}
+
 /* nav related styles */
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 
@@ -45,4 +52,38 @@ nav li{
 nav a{
     text-decoration: none;
     color: var(--Dark-02, #474747);
+}
+
+/* banner related styles */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content{
+    background-color: #FFF8F3;
+}
+
+.banner-greeting{
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-comments{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.banner-img{
+    width: 580px;
+    height: 670px;
 }
