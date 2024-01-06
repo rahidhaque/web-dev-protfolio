@@ -1,24 +1,38 @@
 /* shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
     color: var(--White-Color, #FFF);
     font-size: 20px;
-    font-weight: 700; 
-    padding: 15px 35px;     
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* header style */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -27,7 +41,7 @@ body{
 
 /* nav related styles */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,49 +49,49 @@ nav{
 }
 
 
-.nav-title{
+.nav-title {
     color: var(--Dark-01, #181818);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 45px;
     font-weight: 800;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 51px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: var(--Dark-02, #474747);
 }
 
 /* banner related styles */
-.banner{
+.banner {
     padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     background-color: #FFF8F3;
     max-width: 585px;
 }
 
-.banner-greeting{
+.banner-greeting {
     color: var(--Dark-02, #474747);
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
     color: var(--Dark-01, #181818);
     font-size: 85px;
     font-weight: 700;
@@ -85,7 +99,7 @@ nav a{
     margin-bottom: 0;
 }
 
-.banner-comments{
+.banner-comments {
     color: var(--Dark-03, #757575);
     font-size: 18px;
     font-weight: 400px;
@@ -93,10 +107,20 @@ nav a{
     margin-bottom: 30px;
 }
 
-.banner-img{
+.banner-img {
     width: 500px;
 }
 
-.contact{
+.contact {
     margin-left: 30px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 230px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin-top: 130px 0;
 }
