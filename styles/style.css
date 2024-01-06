@@ -197,3 +197,45 @@ main section {
     justify-content: center;
     margin-top: 50px;
 }
+
+
+/* footer style */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+
+#message{
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--White-Color, #FFF);
+    padding: 18px 35px;
+}
+
+#full-message{
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--White-Color, #FFF);
+    padding: 18px 35px;
+}
+
+.section-title-message{
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.social-links{
+    margin-right: 24px;
+}
+
